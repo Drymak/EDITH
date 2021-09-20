@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sc9j5tskecbw/public_html/edith.codexeg.net/
+    - /bin/cp -R * $DEPLOYPATH
